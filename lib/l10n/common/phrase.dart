@@ -169,6 +169,9 @@ class Phrase {
   /// 地址
   String get address => _appLocalizations.address;
 
+  /// 日程
+  String get schedule => _appLocalizations.schedule;
+
   /// 添加日程
   String get addSchedule => _appLocalizations.addSchedule;
 
