@@ -276,4 +276,7 @@ class Phrase {
 
   /// 公寓/套房
   String get aptSuite => _appLocalizations.aptSuite;
+
+  /// 添加时间段
+  String get addTimeSlot => _appLocalizations.addTimeSlot;
 }
