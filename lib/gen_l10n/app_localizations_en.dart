@@ -8,7 +8,40 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String number(double value) {
+    final intl.NumberFormat valueNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String valueString = valueNumberFormat.format(value);
+
+    return '$valueString';
+  }
+
+  @override
+  String fmtNumber(double value) {
     final intl.NumberFormat valueNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String valueString = valueNumberFormat.format(value);
+
+    return '$valueString';
+  }
+
+  @override
+  String shrinkPrice(double value) {
+    final intl.NumberFormat valueNumberFormat = intl.NumberFormat.compactSimpleCurrency(
+      locale: localeName,
+      decimalDigits: 2
+    );
+    final String valueString = valueNumberFormat.format(value);
+
+    return '$valueString';
+  }
+
+  @override
+  String fullPrice(double value) {
+    final intl.NumberFormat valueNumberFormat = intl.NumberFormat.currency(
+      locale: localeName,
+      decimalDigits: 2
+    );
     final String valueString = valueNumberFormat.format(value);
 
     return '$valueString';

@@ -99,6 +99,24 @@ abstract class AppLocalizations {
   /// **'{value}'**
   String number(double value);
 
+  /// No description provided for @fmtNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'{value}'**
+  String fmtNumber(double value);
+
+  /// No description provided for @shrinkPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'{value}'**
+  String shrinkPrice(double value);
+
+  /// No description provided for @fullPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'{value}'**
+  String fullPrice(double value);
+
   /// No description provided for @yMd.
   ///
   /// In en, this message translates to:

@@ -4,7 +4,40 @@
     "placeholders": {
       "value": {
         "type": "double",
+        "format": "compact"
+      }
+    }
+  },
+  "fmtNumber": "{value}",
+  "@fmtNumber": {
+    "placeholders": {
+      "value": {
+        "type": "double",
         "format": "decimalPattern"
+      }
+    }
+  },
+  "shrinkPrice": "{value}",
+  "@shrinkPrice": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "compactSimpleCurrency",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
+      }
+    }
+  },
+  "fullPrice": "{value}",
+  "@fullPrice": {
+    "placeholders": {
+      "value": {
+        "type": "double",
+        "format": "currency",
+        "optionalParameters": {
+          "decimalDigits": 2
+        }
       }
     }
   },
