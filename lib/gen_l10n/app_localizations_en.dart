@@ -552,6 +552,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get save => 'Save';
 
   @override
+  String get ok => 'Ok';
+
+  @override
   String get invitationCode => 'Invitation code';
 
   @override

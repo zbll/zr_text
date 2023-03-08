@@ -261,4 +261,7 @@ class Phrase {
 
   /// 保存
   String get save => _appLocalizations.save;
+
+  /// 好
+  String get ok => _appLocalizations.ok;
 }
