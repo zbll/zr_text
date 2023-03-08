@@ -326,6 +326,7 @@
   "signIn":"登录",
   "save": "保存",
   "ok": "好",
+  "unknown": "未知",
 
   "invitationCode": "邀请代码",
   "nickName": "昵称",

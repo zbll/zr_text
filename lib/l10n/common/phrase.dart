@@ -264,4 +264,7 @@ class Phrase {
 
   /// 好
   String get ok => _appLocalizations.ok;
+
+  /// 未知
+  String get unknown => _appLocalizations.unknown;
 }

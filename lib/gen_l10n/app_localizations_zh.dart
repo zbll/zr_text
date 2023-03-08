@@ -553,6 +553,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get ok => '好';
 
   @override
+  String get unknown => '未知';
+
+  @override
   String get invitationCode => '邀请代码';
 
   @override

@@ -555,6 +555,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get ok => 'Ok';
 
   @override
+  String get unknown => 'Unknown';
+
+  @override
   String get invitationCode => 'Invitation code';
 
   @override
