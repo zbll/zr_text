@@ -1047,12 +1047,6 @@ abstract class AppLocalizations {
   /// **'Unknown'**
   String get unknown;
 
-  /// No description provided for @phoneNumber.
-  ///
-  /// In en, this message translates to:
-  /// **'Phone number'**
-  String get phoneNumber;
-
   /// No description provided for @invitationCode.
   ///
   /// In en, this message translates to:
