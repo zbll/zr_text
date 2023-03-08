@@ -279,4 +279,7 @@ class Phrase {
 
   /// 添加时间段
   String get addTimeSlot => _appLocalizations.addTimeSlot;
+
+  /// 电话号码
+  String get phoneNumber => _appLocalizations.phoneNumber;
 }
