@@ -1029,6 +1029,12 @@ abstract class AppLocalizations {
   /// **'Sign in'**
   String get signIn;
 
+  /// No description provided for @save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get save;
+
   /// No description provided for @invitationCode.
   ///
   /// In en, this message translates to:

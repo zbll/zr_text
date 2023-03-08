@@ -547,6 +547,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get signIn => '登录';
 
   @override
+  String get save => '保存';
+
+  @override
   String get invitationCode => '邀请代码';
 
   @override

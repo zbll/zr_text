@@ -549,6 +549,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get signIn => 'Sign in';
 
   @override
+  String get save => 'Save';
+
+  @override
   String get invitationCode => 'Invitation code';
 
   @override

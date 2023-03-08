@@ -255,4 +255,7 @@ class Phrase {
 
   /// 年
   String year(String type) => _appLocalizations.yearText(type);
+
+  /// 保存
+  String get save => _appLocalizations.save;
 }
