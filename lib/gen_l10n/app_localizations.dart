@@ -1521,6 +1521,18 @@ abstract class AppLocalizations {
   /// **'Offline income'**
   String get offlineIncome;
 
+  /// No description provided for @online.
+  ///
+  /// In en, this message translates to:
+  /// **'Online'**
+  String get online;
+
+  /// No description provided for @offline.
+  ///
+  /// In en, this message translates to:
+  /// **'Offline'**
+  String get offline;
+
   /// No description provided for @totalIncome.
   ///
   /// In en, this message translates to:

@@ -415,6 +415,8 @@
   "peopleInvited": "邀请数量",
   "onlineIncome": "在线收入",
   "offlineIncome": "离线收入",
+  "online": "在线",
+  "offline": "离线",
   "totalIncome": "收入总额",
   "chooseArrivedAccount": "选择提现账户",
   "cashOutRecord": "提现记录",

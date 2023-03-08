@@ -267,4 +267,10 @@ class Phrase {
 
   /// 未知
   String get unknown => _appLocalizations.unknown;
+
+  /// 在线
+  String get online => _appLocalizations.online;
+
+  /// 离线
+  String get offline => _appLocalizations.offline;
 }

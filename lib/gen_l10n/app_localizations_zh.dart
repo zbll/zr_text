@@ -802,6 +802,12 @@ class AppLocalizationsZh extends AppLocalizations {
   String get offlineIncome => '离线收入';
 
   @override
+  String get online => '在线';
+
+  @override
+  String get offline => '离线';
+
+  @override
   String get totalIncome => '收入总额';
 
   @override

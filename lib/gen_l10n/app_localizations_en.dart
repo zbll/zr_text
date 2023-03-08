@@ -804,6 +804,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get offlineIncome => 'Offline income';
 
   @override
+  String get online => 'Online';
+
+  @override
+  String get offline => 'Offline';
+
+  @override
   String get totalIncome => 'Total income';
 
   @override

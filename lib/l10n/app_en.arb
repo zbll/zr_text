@@ -424,6 +424,8 @@
   "peopleInvited": "People invited",
   "onlineIncome": "Online income",
   "offlineIncome": "Offline income",
+  "online": "Online",
+  "offline": "Offline",
   "totalIncome": "Total income",
   "chooseArrivedAccount": "Choose arrived account",
   "cashOutRecord": "Cash-out record",
