@@ -444,12 +444,13 @@ class AppLocalizationsZh extends AppLocalizations {
     final intl.NumberFormat countNumberFormat = intl.NumberFormat.decimalPattern(localeName);
     final String countString = countNumberFormat.format(count);
 
-    return intl.Intl.pluralLogic(
+    String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      zero: '无',
       other: '$countString件',
+      zero: '无',
     );
+    return '$_temp0';
   }
 
   @override
@@ -468,12 +469,13 @@ class AppLocalizationsZh extends AppLocalizations {
     );
     final String countString = countNumberFormat.format(count);
 
-    return intl.Intl.pluralLogic(
+    String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      zero: '没有评论',
       other: '$countString条评论',
+      zero: '没有评论',
     );
+    return '$_temp0';
   }
 
   @override
@@ -543,4 +545,372 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get signIn => '登录';
+
+  @override
+  String get invitationCode => '邀请代码';
+
+  @override
+  String get nickName => '昵称';
+
+  @override
+  String get verificationCode => '验证码';
+
+  @override
+  String get getCode => '获取验证码';
+
+  @override
+  String get addNewPlan => '添加新计划';
+
+  @override
+  String get planInfo => '计划信息';
+
+  @override
+  String get selectWorkCityHint => '请选择工作城市';
+
+  @override
+  String get locate => '定位';
+
+  @override
+  String get city => '城市';
+
+  @override
+  String get serviceDate => '服务日期';
+
+  @override
+  String get serviceTime => '服务时间';
+
+  @override
+  String get startDate => '开始日期';
+
+  @override
+  String get endDate => '结束日期';
+
+  @override
+  String get startTime => '开始时间';
+
+  @override
+  String get endTime => '结束时间';
+
+  @override
+  String get addTimeSlot => '添加时间段';
+
+  @override
+  String get projectType => '项目类型';
+
+  @override
+  String get home => '家';
+
+  @override
+  String get store => '店铺';
+
+  @override
+  String get both => '两种都有';
+
+  @override
+  String get address => '地址';
+
+  @override
+  String get selectAddressHint => '请选择地址';
+
+  @override
+  String get aptSuite => '公寓/套房';
+
+  @override
+  String get schedule => '日程';
+
+  @override
+  String get addSchedule => '添加日程';
+
+  @override
+  String get project => '项目';
+
+  @override
+  String get orderToday => '今日订单';
+
+  @override
+  String get reserveOrder => '预约订单';
+
+  @override
+  String get mallOrder => '商城订单';
+
+  @override
+  String get homeService => '上门服务';
+
+  @override
+  String get storeService => '门店服务';
+
+  @override
+  String get addTime => '加时';
+
+  @override
+  String get detail => '详情';
+
+  @override
+  String get serviceType => '服务类型';
+
+  @override
+  String get income => '收入';
+
+  @override
+  String get orderId => '订单编号';
+
+  @override
+  String get requestError => '请求错误';
+
+  @override
+  String get serverRequestFailed => '服务器请求失败';
+
+  @override
+  String get authorizationError => '授权信息错误';
+
+  @override
+  String get requestTimeout => '服务器已断开连接，请稍后重试';
+
+  @override
+  String get cancelOrder => '取消订单';
+
+  @override
+  String get dontCancel => '不要取消';
+
+  @override
+  String get enterTime => '输入一个时间';
+
+  @override
+  String get finishProject => '完成项目';
+
+  @override
+  String get payment => '支付';
+
+  @override
+  String get projectName => '项目名称';
+
+  @override
+  String get projectTime => '项目时长';
+
+  @override
+  String hourText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': '小时',
+        'other': '小时',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get price => '价格';
+
+  @override
+  String get extraPrice => '额外的价格';
+
+  @override
+  String get totalPrice => '总额';
+
+  @override
+  String get orderRating => '订单评价';
+
+  @override
+  String get problemDescription => '问题描述';
+
+  @override
+  String get typeSomething => '输入一些内容';
+
+  @override
+  String get mallOrderDetail => '商城订单详情';
+
+  @override
+  String get deliverGoods => '交付';
+
+  @override
+  String get paymentMethod => '支付方式';
+
+  @override
+  String get logistics => '物流';
+
+  @override
+  String get company => '公司';
+
+  @override
+  String get logisticsBillNo => '物流单号';
+
+  @override
+  String get selectLogisticsHint => '请选择物流公司';
+
+  @override
+  String get enterLogisticsNo => '请输入物流单号';
+
+  @override
+  String get coinsBalance => '硬币余额';
+
+  @override
+  String get profile => '个人资料';
+
+  @override
+  String get invitation => '邀请';
+
+  @override
+  String get pastOrder => '历史订单';
+
+  @override
+  String get favorites => '收藏';
+
+  @override
+  String get wallet => '钱包';
+
+  @override
+  String get accountInfo => '账号信息';
+
+  @override
+  String get savedPaymentMethods => '保存的支付方式';
+
+  @override
+  String get addPaymentMethods => '添加支付方式';
+
+  @override
+  String get record => '记录';
+
+  @override
+  String get newAddress => '新增地址';
+
+  @override
+  String get incomeCashOut => '收入现金';
+
+  @override
+  String get withdrawalIncome => '可提现收入';
+
+  @override
+  String get orderQuantity => '订单数量';
+
+  @override
+  String get peopleInvited => '邀请数量';
+
+  @override
+  String get onlineIncome => '在线收入';
+
+  @override
+  String get offlineIncome => '离线收入';
+
+  @override
+  String get totalIncome => '收入总额';
+
+  @override
+  String get chooseArrivedAccount => '选择提现账户';
+
+  @override
+  String get cashOutRecord => '提现记录';
+
+  @override
+  String get onGoing => '进行中';
+
+  @override
+  String get cashOut => '提现';
+
+  @override
+  String day(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString 天',
+      one: '1 天',
+      zero: '0 天',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String dayText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': '天',
+        'other': '天',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String month(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString 月',
+      one: '1 月',
+      zero: '0 月',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String monthText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': '月',
+        'other': '月',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String year(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString 年',
+      one: '1 年',
+      zero: '0 年',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String yearText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': '年',
+        'other': '年',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get orderReceivedTitle => '订单待接收';
+
+  @override
+  String get orderBookedTitle => '订单已接单';
+
+  @override
+  String cancelOrderTip(double num, double num1) {
+    final intl.NumberFormat num1NumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String num1String = num1NumberFormat.format(num1);
+
+    return '如果您现在取消订单，则将扣除$num％的存款（$num1String个硬币）。';
+  }
 }

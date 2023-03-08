@@ -1,5 +1,8 @@
 library zr_text;
 import 'package:flutter/cupertino.dart';
+import 'package:zr_text/l10n/common/money.dart';
+import 'package:zr_text/l10n/common/pay_lang.dart';
+import 'package:zr_text/l10n/common/sugarpapa.dart';
 import 'gen_l10n/app_localizations.dart';
 import 'l10n/common/change.dart';
 import 'l10n/common/comm.dart';
@@ -10,6 +13,7 @@ import 'l10n/common/login.dart';
 import 'l10n/common/month.dart';
 import 'l10n/common/order.dart';
 import 'l10n/common/phrase.dart';
+import 'l10n/common/project_lang.dart';
 import 'l10n/common/prompt.dart';
 import 'l10n/common/tool.dart';
 import 'l10n/common/unit.dart';
@@ -29,6 +33,10 @@ class $t{
   static late Comm _comm;
   static late Change _change;
   static late Img _img;
+  static late SugarPAPA _sugarPAPA;
+  static late Pay _pay;
+  static late ProjectLang _project;
+  static late Money _money;
 
   static of(BuildContext context){
     AppLocalizations appLocalizations = AppLocalizations.of(context)!;
@@ -46,6 +54,10 @@ class $t{
     _change = Change(appLocalizations);
     _change = Change(appLocalizations);
     _img = Img(appLocalizations);
+    _sugarPAPA = SugarPAPA(appLocalizations);
+    _pay = Pay(appLocalizations);
+    _project = ProjectLang(appLocalizations);
+    _money = Money(appLocalizations);
   }
   static Tool get tool => _tool;
   static User get user => _user;
@@ -60,6 +72,10 @@ class $t{
   static Comm get comm => _comm;
   static Change get change => _change;
   static Img get img => _img;
+  static SugarPAPA get sugarPAPA => _sugarPAPA;
+  static Pay get pay => _pay;
+  static ProjectLang get project => _project;
+  static Money get money => _money;
   static List<LocalizationsDelegate<dynamic>> get localizationsDelegates => AppLocalizations.localizationsDelegates;
   static List<Locale> get supportedLocales => AppLocalizations.supportedLocales;
 }

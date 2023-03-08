@@ -444,13 +444,14 @@ class AppLocalizationsEn extends AppLocalizations {
     final intl.NumberFormat countNumberFormat = intl.NumberFormat.decimalPattern(localeName);
     final String countString = countNumberFormat.format(count);
 
-    return intl.Intl.pluralLogic(
+    String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      zero: 'no items',
-      one: '1 item',
       other: '$countString items',
+      one: '1 item',
+      zero: 'no items',
     );
+    return '$_temp0';
   }
 
   @override
@@ -469,13 +470,14 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     final String countString = countNumberFormat.format(count);
 
-    return intl.Intl.pluralLogic(
+    String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      zero: 'no reviews',
-      one: '1 review',
       other: '$countString reviews',
+      one: '1 review',
+      zero: 'no reviews',
     );
+    return '$_temp0';
   }
 
   @override
@@ -545,4 +547,372 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get signIn => 'Sign in';
+
+  @override
+  String get invitationCode => 'Invitation code';
+
+  @override
+  String get nickName => 'Nick name';
+
+  @override
+  String get verificationCode => 'Verification code';
+
+  @override
+  String get getCode => 'Get code';
+
+  @override
+  String get addNewPlan => 'Add new plan';
+
+  @override
+  String get planInfo => 'Plan info';
+
+  @override
+  String get selectWorkCityHint => 'Please select work city';
+
+  @override
+  String get locate => 'Locate';
+
+  @override
+  String get city => 'City';
+
+  @override
+  String get serviceDate => 'Service date';
+
+  @override
+  String get serviceTime => 'Service time';
+
+  @override
+  String get startDate => 'Start date';
+
+  @override
+  String get endDate => 'End date';
+
+  @override
+  String get startTime => 'Start time';
+
+  @override
+  String get endTime => 'End time';
+
+  @override
+  String get addTimeSlot => 'Add time slot';
+
+  @override
+  String get projectType => 'Project type';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get store => 'Store';
+
+  @override
+  String get both => 'Both';
+
+  @override
+  String get address => 'Address';
+
+  @override
+  String get selectAddressHint => 'Please select address';
+
+  @override
+  String get aptSuite => 'Apt/Suite';
+
+  @override
+  String get schedule => 'Schedule';
+
+  @override
+  String get addSchedule => 'Add schedule';
+
+  @override
+  String get project => 'Project';
+
+  @override
+  String get orderToday => 'Order today';
+
+  @override
+  String get reserveOrder => 'Reserve order';
+
+  @override
+  String get mallOrder => 'Mall order';
+
+  @override
+  String get homeService => 'Home service';
+
+  @override
+  String get storeService => 'Store service';
+
+  @override
+  String get addTime => 'Add time';
+
+  @override
+  String get detail => 'Detail';
+
+  @override
+  String get serviceType => 'Service type';
+
+  @override
+  String get income => 'Income';
+
+  @override
+  String get orderId => 'Order ID';
+
+  @override
+  String get requestError => 'Request error';
+
+  @override
+  String get serverRequestFailed => 'Server request failed';
+
+  @override
+  String get authorizationError => 'Authorization error';
+
+  @override
+  String get requestTimeout => 'Request time out';
+
+  @override
+  String get cancelOrder => 'Cancel order';
+
+  @override
+  String get dontCancel => 'Don\'t cancel';
+
+  @override
+  String get enterTime => 'Enter a time';
+
+  @override
+  String get finishProject => 'Finish project';
+
+  @override
+  String get payment => 'Payment';
+
+  @override
+  String get projectName => 'Project name';
+
+  @override
+  String get projectTime => 'Project time';
+
+  @override
+  String hourText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': 'Hours',
+        'other': 'Hour',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get price => 'Price';
+
+  @override
+  String get extraPrice => 'Extra price';
+
+  @override
+  String get totalPrice => 'Total price';
+
+  @override
+  String get orderRating => 'Order rating';
+
+  @override
+  String get problemDescription => 'Problem description';
+
+  @override
+  String get typeSomething => 'Type something';
+
+  @override
+  String get mallOrderDetail => 'Mall order detail';
+
+  @override
+  String get deliverGoods => 'Deliver goods';
+
+  @override
+  String get paymentMethod => 'Payment method';
+
+  @override
+  String get logistics => 'Logistics';
+
+  @override
+  String get company => 'company';
+
+  @override
+  String get logisticsBillNo => 'Logistics bill No';
+
+  @override
+  String get selectLogisticsHint => 'Please select logistics company';
+
+  @override
+  String get enterLogisticsNo => 'Please enter Logistics bill No';
+
+  @override
+  String get coinsBalance => 'Coins balance';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get invitation => 'Invitation';
+
+  @override
+  String get pastOrder => 'Past order';
+
+  @override
+  String get favorites => 'Favorites';
+
+  @override
+  String get wallet => 'Wallet';
+
+  @override
+  String get accountInfo => 'Account Info';
+
+  @override
+  String get savedPaymentMethods => 'Saved payment methods';
+
+  @override
+  String get addPaymentMethods => 'Add payment methods';
+
+  @override
+  String get record => 'Record';
+
+  @override
+  String get newAddress => 'New address';
+
+  @override
+  String get incomeCashOut => 'Income cash-out';
+
+  @override
+  String get withdrawalIncome => 'Withdrawable income';
+
+  @override
+  String get orderQuantity => 'Order quantity';
+
+  @override
+  String get peopleInvited => 'People invited';
+
+  @override
+  String get onlineIncome => 'Online income';
+
+  @override
+  String get offlineIncome => 'Offline income';
+
+  @override
+  String get totalIncome => 'Total income';
+
+  @override
+  String get chooseArrivedAccount => 'Choose arrived account';
+
+  @override
+  String get cashOutRecord => 'Cash-out record';
+
+  @override
+  String get onGoing => 'On going';
+
+  @override
+  String get cashOut => 'Cash-out';
+
+  @override
+  String day(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString days',
+      one: 'one day',
+      zero: '0 days',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String dayText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': 'Days',
+        'other': 'Day',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String month(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString months',
+      one: '1 month',
+      zero: '0 months',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String monthText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': 'Months',
+        'other': 'Month',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String year(int num) {
+    final intl.NumberFormat numNumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String numString = numNumberFormat.format(num);
+
+    String _temp0 = intl.Intl.pluralLogic(
+      num,
+      locale: localeName,
+      other: '$numString years',
+      one: '1 year',
+      zero: '0 years',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String yearText(String type) {
+    String _temp0 = intl.Intl.selectLogic(
+      type,
+      {
+        'most': 'Years',
+        'other': 'Year',
+      },
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get orderReceivedTitle => 'Order is to be received';
+
+  @override
+  String get orderBookedTitle => 'Order has been booked';
+
+  @override
+  String cancelOrderTip(double num, double num1) {
+    final intl.NumberFormat num1NumberFormat = intl.NumberFormat.compact(
+      locale: localeName,
+      
+    );
+    final String num1String = num1NumberFormat.format(num1);
+
+    return 'If you cancel the order now, $num% deposit ($num1String coins) will be deducted.';
+  }
 }

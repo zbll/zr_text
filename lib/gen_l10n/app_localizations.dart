@@ -1028,6 +1028,564 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sign in'**
   String get signIn;
+
+  /// No description provided for @invitationCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Invitation code'**
+  String get invitationCode;
+
+  /// No description provided for @nickName.
+  ///
+  /// In en, this message translates to:
+  /// **'Nick name'**
+  String get nickName;
+
+  /// No description provided for @verificationCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code'**
+  String get verificationCode;
+
+  /// No description provided for @getCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Get code'**
+  String get getCode;
+
+  /// No description provided for @addNewPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Add new plan'**
+  String get addNewPlan;
+
+  /// No description provided for @planInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan info'**
+  String get planInfo;
+
+  /// No description provided for @selectWorkCityHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select work city'**
+  String get selectWorkCityHint;
+
+  /// No description provided for @locate.
+  ///
+  /// In en, this message translates to:
+  /// **'Locate'**
+  String get locate;
+
+  /// No description provided for @city.
+  ///
+  /// In en, this message translates to:
+  /// **'City'**
+  String get city;
+
+  /// No description provided for @serviceDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Service date'**
+  String get serviceDate;
+
+  /// No description provided for @serviceTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Service time'**
+  String get serviceTime;
+
+  /// No description provided for @startDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Start date'**
+  String get startDate;
+
+  /// No description provided for @endDate.
+  ///
+  /// In en, this message translates to:
+  /// **'End date'**
+  String get endDate;
+
+  /// No description provided for @startTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Start time'**
+  String get startTime;
+
+  /// No description provided for @endTime.
+  ///
+  /// In en, this message translates to:
+  /// **'End time'**
+  String get endTime;
+
+  /// No description provided for @addTimeSlot.
+  ///
+  /// In en, this message translates to:
+  /// **'Add time slot'**
+  String get addTimeSlot;
+
+  /// No description provided for @projectType.
+  ///
+  /// In en, this message translates to:
+  /// **'Project type'**
+  String get projectType;
+
+  /// No description provided for @home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home;
+
+  /// No description provided for @store.
+  ///
+  /// In en, this message translates to:
+  /// **'Store'**
+  String get store;
+
+  /// No description provided for @both.
+  ///
+  /// In en, this message translates to:
+  /// **'Both'**
+  String get both;
+
+  /// No description provided for @address.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get address;
+
+  /// No description provided for @selectAddressHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select address'**
+  String get selectAddressHint;
+
+  /// No description provided for @aptSuite.
+  ///
+  /// In en, this message translates to:
+  /// **'Apt/Suite'**
+  String get aptSuite;
+
+  /// No description provided for @schedule.
+  ///
+  /// In en, this message translates to:
+  /// **'Schedule'**
+  String get schedule;
+
+  /// No description provided for @addSchedule.
+  ///
+  /// In en, this message translates to:
+  /// **'Add schedule'**
+  String get addSchedule;
+
+  /// No description provided for @project.
+  ///
+  /// In en, this message translates to:
+  /// **'Project'**
+  String get project;
+
+  /// No description provided for @orderToday.
+  ///
+  /// In en, this message translates to:
+  /// **'Order today'**
+  String get orderToday;
+
+  /// No description provided for @reserveOrder.
+  ///
+  /// In en, this message translates to:
+  /// **'Reserve order'**
+  String get reserveOrder;
+
+  /// No description provided for @mallOrder.
+  ///
+  /// In en, this message translates to:
+  /// **'Mall order'**
+  String get mallOrder;
+
+  /// No description provided for @homeService.
+  ///
+  /// In en, this message translates to:
+  /// **'Home service'**
+  String get homeService;
+
+  /// No description provided for @storeService.
+  ///
+  /// In en, this message translates to:
+  /// **'Store service'**
+  String get storeService;
+
+  /// No description provided for @addTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Add time'**
+  String get addTime;
+
+  /// No description provided for @detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Detail'**
+  String get detail;
+
+  /// No description provided for @serviceType.
+  ///
+  /// In en, this message translates to:
+  /// **'Service type'**
+  String get serviceType;
+
+  /// No description provided for @income.
+  ///
+  /// In en, this message translates to:
+  /// **'Income'**
+  String get income;
+
+  /// No description provided for @orderId.
+  ///
+  /// In en, this message translates to:
+  /// **'Order ID'**
+  String get orderId;
+
+  /// No description provided for @requestError.
+  ///
+  /// In en, this message translates to:
+  /// **'Request error'**
+  String get requestError;
+
+  /// No description provided for @serverRequestFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Server request failed'**
+  String get serverRequestFailed;
+
+  /// No description provided for @authorizationError.
+  ///
+  /// In en, this message translates to:
+  /// **'Authorization error'**
+  String get authorizationError;
+
+  /// No description provided for @requestTimeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Request time out'**
+  String get requestTimeout;
+
+  /// No description provided for @cancelOrder.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel order'**
+  String get cancelOrder;
+
+  /// No description provided for @dontCancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t cancel'**
+  String get dontCancel;
+
+  /// No description provided for @enterTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a time'**
+  String get enterTime;
+
+  /// No description provided for @finishProject.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish project'**
+  String get finishProject;
+
+  /// No description provided for @payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment'**
+  String get payment;
+
+  /// No description provided for @projectName.
+  ///
+  /// In en, this message translates to:
+  /// **'Project name'**
+  String get projectName;
+
+  /// No description provided for @projectTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Project time'**
+  String get projectTime;
+
+  /// hour text
+  ///
+  /// In en, this message translates to:
+  /// **'{type, select, most{Hours} other{Hour}}'**
+  String hourText(String type);
+
+  /// No description provided for @price.
+  ///
+  /// In en, this message translates to:
+  /// **'Price'**
+  String get price;
+
+  /// No description provided for @extraPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'Extra price'**
+  String get extraPrice;
+
+  /// No description provided for @totalPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'Total price'**
+  String get totalPrice;
+
+  /// No description provided for @orderRating.
+  ///
+  /// In en, this message translates to:
+  /// **'Order rating'**
+  String get orderRating;
+
+  /// No description provided for @problemDescription.
+  ///
+  /// In en, this message translates to:
+  /// **'Problem description'**
+  String get problemDescription;
+
+  /// No description provided for @typeSomething.
+  ///
+  /// In en, this message translates to:
+  /// **'Type something'**
+  String get typeSomething;
+
+  /// No description provided for @mallOrderDetail.
+  ///
+  /// In en, this message translates to:
+  /// **'Mall order detail'**
+  String get mallOrderDetail;
+
+  /// No description provided for @deliverGoods.
+  ///
+  /// In en, this message translates to:
+  /// **'Deliver goods'**
+  String get deliverGoods;
+
+  /// No description provided for @paymentMethod.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment method'**
+  String get paymentMethod;
+
+  /// No description provided for @logistics.
+  ///
+  /// In en, this message translates to:
+  /// **'Logistics'**
+  String get logistics;
+
+  /// No description provided for @company.
+  ///
+  /// In en, this message translates to:
+  /// **'company'**
+  String get company;
+
+  /// No description provided for @logisticsBillNo.
+  ///
+  /// In en, this message translates to:
+  /// **'Logistics bill No'**
+  String get logisticsBillNo;
+
+  /// No description provided for @selectLogisticsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select logistics company'**
+  String get selectLogisticsHint;
+
+  /// No description provided for @enterLogisticsNo.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter Logistics bill No'**
+  String get enterLogisticsNo;
+
+  /// No description provided for @coinsBalance.
+  ///
+  /// In en, this message translates to:
+  /// **'Coins balance'**
+  String get coinsBalance;
+
+  /// No description provided for @profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
+
+  /// No description provided for @invitation.
+  ///
+  /// In en, this message translates to:
+  /// **'Invitation'**
+  String get invitation;
+
+  /// No description provided for @pastOrder.
+  ///
+  /// In en, this message translates to:
+  /// **'Past order'**
+  String get pastOrder;
+
+  /// No description provided for @favorites.
+  ///
+  /// In en, this message translates to:
+  /// **'Favorites'**
+  String get favorites;
+
+  /// No description provided for @wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet'**
+  String get wallet;
+
+  /// No description provided for @accountInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Info'**
+  String get accountInfo;
+
+  /// No description provided for @savedPaymentMethods.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved payment methods'**
+  String get savedPaymentMethods;
+
+  /// No description provided for @addPaymentMethods.
+  ///
+  /// In en, this message translates to:
+  /// **'Add payment methods'**
+  String get addPaymentMethods;
+
+  /// No description provided for @record.
+  ///
+  /// In en, this message translates to:
+  /// **'Record'**
+  String get record;
+
+  /// No description provided for @newAddress.
+  ///
+  /// In en, this message translates to:
+  /// **'New address'**
+  String get newAddress;
+
+  /// No description provided for @incomeCashOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Income cash-out'**
+  String get incomeCashOut;
+
+  /// No description provided for @withdrawalIncome.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawable income'**
+  String get withdrawalIncome;
+
+  /// No description provided for @orderQuantity.
+  ///
+  /// In en, this message translates to:
+  /// **'Order quantity'**
+  String get orderQuantity;
+
+  /// No description provided for @peopleInvited.
+  ///
+  /// In en, this message translates to:
+  /// **'People invited'**
+  String get peopleInvited;
+
+  /// No description provided for @onlineIncome.
+  ///
+  /// In en, this message translates to:
+  /// **'Online income'**
+  String get onlineIncome;
+
+  /// No description provided for @offlineIncome.
+  ///
+  /// In en, this message translates to:
+  /// **'Offline income'**
+  String get offlineIncome;
+
+  /// No description provided for @totalIncome.
+  ///
+  /// In en, this message translates to:
+  /// **'Total income'**
+  String get totalIncome;
+
+  /// No description provided for @chooseArrivedAccount.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose arrived account'**
+  String get chooseArrivedAccount;
+
+  /// No description provided for @cashOutRecord.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash-out record'**
+  String get cashOutRecord;
+
+  /// No description provided for @onGoing.
+  ///
+  /// In en, this message translates to:
+  /// **'On going'**
+  String get onGoing;
+
+  /// No description provided for @cashOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash-out'**
+  String get cashOut;
+
+  /// day number
+  ///
+  /// In en, this message translates to:
+  /// **'{num, plural, =0{0 days} =1{one day} other{{num} days}}'**
+  String day(int num);
+
+  /// day text
+  ///
+  /// In en, this message translates to:
+  /// **'{type, select, most{Days} other{Day}}'**
+  String dayText(String type);
+
+  /// month number
+  ///
+  /// In en, this message translates to:
+  /// **'{num, plural, =0{0 months} =1{1 month} other{{num} months}}'**
+  String month(int num);
+
+  /// month text
+  ///
+  /// In en, this message translates to:
+  /// **'{type, select, most{Months} other{Month}}'**
+  String monthText(String type);
+
+  /// year number
+  ///
+  /// In en, this message translates to:
+  /// **'{num, plural, =0{0 years} =1{1 year} other{{num} years}}'**
+  String year(int num);
+
+  /// year text
+  ///
+  /// In en, this message translates to:
+  /// **'{type, select, most{Years} other{Year}}'**
+  String yearText(String type);
+
+  /// No description provided for @orderReceivedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Order is to be received'**
+  String get orderReceivedTitle;
+
+  /// No description provided for @orderBookedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Order has been booked'**
+  String get orderBookedTitle;
+
+  /// No description provided for @cancelOrderTip.
+  ///
+  /// In en, this message translates to:
+  /// **'If you cancel the order now, {num}% deposit ({num1} coins) will be deducted.'**
+  String cancelOrderTip(double num, double num1);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
