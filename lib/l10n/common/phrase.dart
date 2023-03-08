@@ -273,4 +273,7 @@ class Phrase {
 
   /// 离线
   String get offline => _appLocalizations.offline;
+
+  /// 公寓/套房
+  String get aptSuite => _appLocalizations.aptSuite;
 }
