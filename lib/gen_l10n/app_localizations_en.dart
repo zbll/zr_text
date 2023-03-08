@@ -591,6 +591,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get unknown => 'Unknown';
 
   @override
+  String get edit => 'Edit';
+
+  @override
   String get invitationCode => 'Invitation code';
 
   @override
