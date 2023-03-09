@@ -594,6 +594,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get edit => 'Edit';
 
   @override
+  String get finish => 'Finish';
+
+  @override
   String get invitationCode => 'Invitation code';
 
   @override

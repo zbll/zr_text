@@ -1071,6 +1071,12 @@ abstract class AppLocalizations {
   /// **'Edit'**
   String get edit;
 
+  /// No description provided for @finish.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish'**
+  String get finish;
+
   /// No description provided for @invitationCode.
   ///
   /// In en, this message translates to:

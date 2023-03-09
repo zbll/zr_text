@@ -592,6 +592,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get edit => '修改';
 
   @override
+  String get finish => '结束';
+
+  @override
   String get invitationCode => '邀请代码';
 
   @override
