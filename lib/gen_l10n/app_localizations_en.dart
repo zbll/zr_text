@@ -954,13 +954,19 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get orderReceivedTitle => 'Order is to be received';
+  String get callPhoneError => 'Unable to make a call, please try again later';
 
   @override
-  String get orderBookedTitle => 'Order has been booked';
+  String get orderCompleted => 'Order completed';
 
   @override
-  String cancelOrderTip(double num, double num1) {
+  String get sugarPAPA_orderReceivedTitle => 'Order is to be received';
+
+  @override
+  String get sugarPAPA_orderBookedTitle => 'Order has been booked';
+
+  @override
+  String sugarPAPA_cancelOrderTip(double num, double num1) {
     final intl.NumberFormat num1NumberFormat = intl.NumberFormat.compact(
       locale: localeName,
       
@@ -969,7 +975,4 @@ class AppLocalizationsEn extends AppLocalizations {
 
     return 'If you cancel the order now, $num% deposit ($num1String coins) will be deducted.';
   }
-
-  @override
-  String get callPhoneError => 'Unable to make a call, please try again later';
 }

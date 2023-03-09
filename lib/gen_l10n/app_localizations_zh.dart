@@ -952,13 +952,19 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get orderReceivedTitle => '订单待接收';
+  String get callPhoneError => '无法拨打电话,请稍后再试';
 
   @override
-  String get orderBookedTitle => '订单已接单';
+  String get orderCompleted => '订单完成';
 
   @override
-  String cancelOrderTip(double num, double num1) {
+  String get sugarPAPA_orderReceivedTitle => '订单待接收';
+
+  @override
+  String get sugarPAPA_orderBookedTitle => '订单已接单';
+
+  @override
+  String sugarPAPA_cancelOrderTip(double num, double num1) {
     final intl.NumberFormat num1NumberFormat = intl.NumberFormat.compact(
       locale: localeName,
       
@@ -967,7 +973,4 @@ class AppLocalizationsZh extends AppLocalizations {
 
     return '如果您现在取消订单，则将扣除$num％的存款（$num1String个硬币）。';
   }
-
-  @override
-  String get callPhoneError => '无法拨打电话,请稍后再试';
 }

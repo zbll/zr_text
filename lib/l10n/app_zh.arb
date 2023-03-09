@@ -515,11 +515,13 @@
       }
     }
   },
+  "callPhoneError": "无法拨打电话,请稍后再试",
+  "orderCompleted": "订单完成",
 
-  "orderReceivedTitle": "订单待接收",
-  "orderBookedTitle": "订单已接单",
-  "cancelOrderTip": "如果您现在取消订单，则将扣除{num}％的存款（{num1}个硬币）。",
-  "@cancelOrderTip": {
+  "sugarPAPA_orderReceivedTitle": "订单待接收",
+  "sugarPAPA_orderBookedTitle": "订单已接单",
+  "sugarPAPA_cancelOrderTip": "如果您现在取消订单，则将扣除{num}％的存款（{num1}个硬币）。",
+  "@sugarPAPA_cancelOrderTip": {
     "placeholders": {
       "num": {
         "type": "double"
@@ -530,5 +532,5 @@
       }
     }
   },
-  "callPhoneError": "无法拨打电话,请稍后再试"
+  "sugarPAPA_orderCompletedTitle": "订单完成"
 }

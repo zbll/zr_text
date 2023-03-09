@@ -75,4 +75,7 @@ class Order {
 
   /// 订单数量
   String get orderQuantity => _appLocalizations.orderQuantity;
+
+  /// 订单完成
+  String get orderCompleted => _appLocalizations.orderCompleted;
 }

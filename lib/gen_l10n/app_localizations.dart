@@ -1629,29 +1629,35 @@ abstract class AppLocalizations {
   /// **'{type, select, most{Years} other{Year}}'**
   String yearText(String type);
 
-  /// No description provided for @orderReceivedTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Order is to be received'**
-  String get orderReceivedTitle;
-
-  /// No description provided for @orderBookedTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Order has been booked'**
-  String get orderBookedTitle;
-
-  /// No description provided for @cancelOrderTip.
-  ///
-  /// In en, this message translates to:
-  /// **'If you cancel the order now, {num}% deposit ({num1} coins) will be deducted.'**
-  String cancelOrderTip(double num, double num1);
-
   /// No description provided for @callPhoneError.
   ///
   /// In en, this message translates to:
   /// **'Unable to make a call, please try again later'**
   String get callPhoneError;
+
+  /// No description provided for @orderCompleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Order completed'**
+  String get orderCompleted;
+
+  /// No description provided for @sugarPAPA_orderReceivedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Order is to be received'**
+  String get sugarPAPA_orderReceivedTitle;
+
+  /// No description provided for @sugarPAPA_orderBookedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Order has been booked'**
+  String get sugarPAPA_orderBookedTitle;
+
+  /// No description provided for @sugarPAPA_cancelOrderTip.
+  ///
+  /// In en, this message translates to:
+  /// **'If you cancel the order now, {num}% deposit ({num1} coins) will be deducted.'**
+  String sugarPAPA_cancelOrderTip(double num, double num1);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
