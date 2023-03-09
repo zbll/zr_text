@@ -1640,6 +1640,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'If you cancel the order now, {num}% deposit ({num1} coins) will be deducted.'**
   String cancelOrderTip(double num, double num1);
+
+  /// No description provided for @callPhoneError.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to make a call, please try again later'**
+  String get callPhoneError;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -966,4 +966,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
     return 'If you cancel the order now, $num% deposit ($num1String coins) will be deducted.';
   }
+
+  @override
+  String get callPhoneError => 'Unable to make a call, please try again later';
 }

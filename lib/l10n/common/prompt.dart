@@ -62,4 +62,7 @@ class Prompt {
 
   /// 服务器已断开连接,请稍后再试
   String get requestTimeout => _appLocalizations.requestTimeout;
+
+  /// 无法拨打电话,请稍后再试
+  String get callError => _appLocalizations.callPhoneError;
 }

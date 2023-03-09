@@ -964,4 +964,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
     return '如果您现在取消订单，则将扣除$num％的存款（$num1String个硬币）。';
   }
+
+  @override
+  String get callPhoneError => '无法拨打电话,请稍后再试';
 }

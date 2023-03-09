@@ -536,5 +536,6 @@
         "format": "compact"
       }
     }
-  }
+  },
+  "callPhoneError": "Unable to make a call, please try again later"
 }

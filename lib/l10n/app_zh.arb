@@ -528,5 +528,6 @@
         "format": "compact"
       }
     }
-  }
+  },
+  "callPhoneError": "无法拨打电话,请稍后再试"
 }
